@@ -47,7 +47,7 @@ func main() {
 				if err != nil {
 					panic(err)
 				}
-			} else if nuevo_valor < valor_actual {
+			} else if nuevo_valor > valor_actual {
 				fmt.Println("EL VALOR ACTUAL ES", valor_actualizado)
 				fmt.Println("¿ALGUIEN DA MÁS?")
 				_, err := fmt.Scanf("%s", &sino)
